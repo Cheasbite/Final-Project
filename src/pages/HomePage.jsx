@@ -155,7 +155,7 @@ const HomePage = () => {
 
         <section className="py-20 lg:py-32 bg-[#1e40af] text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDE2YzAtMi4yMSAxLjc5LTQgNC00czQgMS43OSA0IDQtMS43OSA0LTQgNC00LTEuNzktNC00em0wIDI0YzAtMi4yMSAxLjc5LTQgNC00czQgMS43OSA0IDQtMS43OSA0LTQgNC00LTEuNzktNC00ek0xMiAxNmMwLTIuMjEgMS43OS00IDQtNHM0IDEuNzkgNCA0LTEuNzkgNC00IDQtNC0xLjc5LTQtNHptMCAyNGMwLTIuMjEgMS43OS00IDQtNHM0IDEuNzkgNCA0LTEuNzkgNC00IDQtNC0xLjc5LTQtNHoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-10"></div>
-          
+
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold mb-4">Our Impact in Numbers</h2>
@@ -258,7 +258,7 @@ const HomePage = () => {
               <Button asChild size="lg" className="text-base bg-white text-blue-900 hover:bg-blue-50">
                 <Link to="/programs">Browse Programs</Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="text-base border-white text-white hover:bg-white/10">
+              <Button asChild variant="outline" size="lg" className="text-base border-white text-blue-900 hover:bg-white/10">
                 <Link to="/contact">Schedule Consultation</Link>
               </Button>
             </div>
@@ -272,3 +272,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
